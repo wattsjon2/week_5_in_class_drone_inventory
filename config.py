@@ -22,3 +22,6 @@ class Config():
     SECRET_KEY = os.environ.get('SECRECT_KEY') or 'You will never guess'
     SQLALCHEMY_DATABASE_URI = os.environ.get('DEPLOY_DATABASE_URL') or 'sqlite:///' + os.path.join(basedir, 'app.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False # turn off messages for updates in sqlalchemy
+
+
+    # test
