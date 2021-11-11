@@ -30,3 +30,5 @@ migrate = Migrate(app, root_db)
 CORS(app)
 
 app.json_encoder = JSONEncoder
+
+#test 
